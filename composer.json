@@ -6,6 +6,7 @@
     "type": "project",
     "require": {
         "php": ">=5.5.9",
+        "cartalyst/sentry": "2.1.0",
         "laravel/framework": "5.1.*"
     },
     "require-dev": {
@@ -47,5 +48,9 @@
     },
     "config": {
         "preferred-install": "dist"
-    }
+    },
+      "repositories": [
+        {"type": "composer", "url": "http://packagist.phpcomposer.com"},
+        {"packagist": false}
+    ]
 }
